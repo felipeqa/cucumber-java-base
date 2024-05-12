@@ -12,6 +12,6 @@ public class HomePageObject extends PageObjectBase {
 
 
     //filtrando por texto
-    @FindBy(xpath = "//h2[contains(text(),'Atendimento')]")
+    @FindBy(xpath = "//h2[contains(text(),'Atendimento')][@data-js='category']")
     public WebElement atendimento;
 }
